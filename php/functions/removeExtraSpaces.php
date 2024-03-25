@@ -1,5 +1,6 @@
 <?php 
 
+
       //El primer parametro es el texto, en este texto se removeran aquellos espacios adicionales que pueden sobrevenir de un formulario html.//
     function removeExtraSpaces($text){
         $words = str_split($text);
